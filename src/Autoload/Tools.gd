@@ -46,6 +46,7 @@ var _tools = {
 	"Eraser" : "res://src/Tools/Eraser.tscn",
 	"Bucket" : "res://src/Tools/Bucket.tscn",
 	"LightenDarken" : "res://src/Tools/LightenDarken.tscn",
+	"Text" : "res://src/Tools/Text.tscn",
 }
 var _slots = {}
 var _panels = {}

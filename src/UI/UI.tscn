@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://src/UI/ToolButtons.gd" type="Script" id=1]
 [ext_resource path="res://src/UI/Canvas/CanvasPreview.tscn" type="PackedScene" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://src/UI/Canvas/Rulers/HorizontalRuler.gd" type="Script" id=6]
 [ext_resource path="res://src/UI/Canvas/CameraMovement.gd" type="Script" id=7]
 [ext_resource path="res://src/SelectionRectangle.gd" type="Script" id=8]
+[ext_resource path="res://assets/graphics/dark_themes/tools/text.png" type="Texture" id=9]
 [ext_resource path="res://assets/graphics/dark_themes/tools/bucket.png" type="Texture" id=10]
 [ext_resource path="res://assets/graphics/dark_themes/tools/colorpicker.png" type="Texture" id=11]
 [ext_resource path="res://assets/graphics/dark_themes/tools/rectselect.png" type="Texture" id=12]
@@ -58,7 +59,7 @@ __meta__ = {
 margin_left = 7.0
 margin_top = 7.0
 margin_right = 39.0
-margin_bottom = 255.0
+margin_bottom = 291.0
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -185,6 +186,24 @@ button_mask = 3
 margin_right = 32.0
 margin_bottom = 32.0
 texture = ExtResource( 15 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text" type="Button" parent="ToolPanel/PanelContainer/ToolButtons" groups=[
+"UIButtons",
+]]
+margin_top = 252.0
+margin_right = 32.0
+margin_bottom = 284.0
+rect_min_size = Vector2( 32, 32 )
+mouse_default_cursor_shape = 2
+button_mask = 3
+
+[node name="TextureRect" type="TextureRect" parent="ToolPanel/PanelContainer/ToolButtons/Text"]
+margin_right = 32.0
+margin_bottom = 32.0
+texture = ExtResource( 9 )
 __meta__ = {
 "_edit_use_anchors_": false
 }

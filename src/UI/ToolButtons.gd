@@ -10,6 +10,7 @@ onready var tools := [
 	[$Eraser, "eraser"],
 	[$Bucket, "fill"],
 	[$LightenDarken, "lightdark"],
+	[$Text, "text"],
 ]
 
 

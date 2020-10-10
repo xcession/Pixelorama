@@ -103,6 +103,9 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
+msgid "Cut"
+msgstr ""
+
 msgid "Paste"
 msgstr ""
 
@@ -405,6 +408,9 @@ msgid "Caramel"
 msgstr ""
 
 msgid "Light"
+msgstr ""
+
+msgid "Purple"
 msgstr ""
 
 msgid "Only affect selection"
@@ -1200,10 +1206,10 @@ msgstr ""
 msgid "File autosaved"
 msgstr ""
 
-msgid "File failed to open"
+msgid "File failed to open. Error code %s"
 msgstr ""
 
-msgid "File failed to save"
+msgid "File failed to save. Error code %s"
 msgstr ""
 
 msgid "File exported"
@@ -1240,6 +1246,15 @@ msgid "Invalid Palette file!"
 msgstr ""
 
 msgid "Edit Palette"
+msgstr ""
+
+msgid "Create colors with alpha component"
+msgstr ""
+
+msgid "Get colors only from selection"
+msgstr ""
+
+msgid "Get colors from"
 msgstr ""
 
 msgid "Patrons:"
@@ -1403,4 +1418,10 @@ msgid "An error occured while removing the palette! Error code: %s"
 msgstr ""
 
 msgid "and"
+msgstr ""
+
+msgid "Move the selected frame to the left."
+msgstr ""
+
+msgid "Move the selected frame to the right."
 msgstr ""

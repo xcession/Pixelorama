@@ -38,12 +38,14 @@ func _ready() -> void:
 	contributors.create_item(contributor_root).set_text(0, "  Aaron Franke (aaronfranke)")
 	contributors.create_item(contributor_root).set_text(0, "  rob-a-bolton")
 	contributors.create_item(contributor_root).set_text(0, "  Vriska Weaver (henlo-birb)")
+	contributors.create_item(contributor_root).set_text(0, "  PinyaColada")
 
 	var donors_root := donors.create_item()
 	donors.create_item(donors_root).set_text(0, "  pcmxms - https://www.nonamefornowsoft.com.br/")
 	donors.create_item(donors_root).set_text(0, "  Mike King")
 	donors.create_item(donors_root).set_text(0, "  Guillaume Gautier")
 	donors.create_item(donors_root).set_text(0, "  Isambard")
+	donors.create_item(donors_root).set_text(0, "  Hugo Locurcio")
 
 
 func _on_AboutDialog_about_to_show() -> void:

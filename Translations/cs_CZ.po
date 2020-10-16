@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
-"PO-Revision-Date: 2020-09-23 12:31\n"
+"PO-Revision-Date: 2020-10-13 16:49\n"
 
 msgid "OK"
 msgstr "OK"
@@ -113,6 +113,9 @@ msgstr "Znovu"
 
 msgid "Copy"
 msgstr "Kopírovat"
+
+msgid "Cut"
+msgstr "Vyjmout"
 
 msgid "Paste"
 msgstr "Vložit"
@@ -419,6 +422,9 @@ msgstr "Karamel"
 msgid "Light"
 msgstr "Světlý"
 
+msgid "Purple"
+msgstr "Fialová"
+
 msgid "Only affect selection"
 msgstr "Pouze ovlivňuje výběr"
 
@@ -531,10 +537,10 @@ msgid "Developed by Orama Interactive"
 msgstr "Vyvinuto Orama Interactive"
 
 msgid "Copyright 2019-2020 Orama Interactive and contributors"
-msgstr ""
+msgstr "Copyright 2019-2020 Orama Interactive a přispěvatelé"
 
 msgid "©2019-2020 by Orama Interactive and contributors"
-msgstr ""
+msgstr "©2019-2020 od Orama Interactive a přispěvatelů"
 
 msgid "Website"
 msgstr "Webové stránky"
@@ -1240,11 +1246,11 @@ msgstr "Soubor uložen"
 msgid "File autosaved"
 msgstr "Soubor automaticky uložen"
 
-msgid "File failed to open"
-msgstr "Otevření souboru selhalo"
+msgid "File failed to open. Error code %s"
+msgstr "Otevření souboru se nezdařilo. Chybový kód %s"
 
-msgid "File failed to save"
-msgstr "Uložení souboru selhalo"
+msgid "File failed to save. Error code %s"
+msgstr "Soubor se nepodařilo uložit. Kód chyby %s"
 
 msgid "File exported"
 msgstr "Soubor exportován"
@@ -1281,6 +1287,15 @@ msgstr "Neplatný soubor palety!"
 
 msgid "Edit Palette"
 msgstr "Upravit paletu"
+
+msgid "Create colors with alpha component"
+msgstr "Vytvořit barvy s alfa komponentou"
+
+msgid "Get colors only from selection"
+msgstr "Získat barvy pouze z výběru"
+
+msgid "Get colors from"
+msgstr "Získat barvy z"
 
 msgid "Patrons:"
 msgstr "Patroni:"
@@ -1434,6 +1449,9 @@ msgstr "Záloha znovu načtena"
 msgid "Remove currently selected palette"
 msgstr "Odstranit aktuálně vybranou paletu"
 
+msgid "Are you sure you want to remove this palette? (Cannot be undone)"
+msgstr "Jste si jisti, že chcete odstranit tuto paletu? (Nevratná změna)"
+
 msgid "You can't remove more palettes!"
 msgstr "Nelze odstranit více palet!"
 
@@ -1445,4 +1463,10 @@ msgstr "Při odstraňování palety došlo k chybě! Kód chyby: %s"
 
 msgid "and"
 msgstr "a"
+
+msgid "Move the selected frame to the left."
+msgstr "Přesunout vybraný snímek doleva."
+
+msgid "Move the selected frame to the right."
+msgstr "Přesunout vybraný snímek doprava."
 

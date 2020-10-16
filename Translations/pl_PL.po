@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
-"PO-Revision-Date: 2020-09-23 12:31\n"
+"PO-Revision-Date: 2020-10-13 16:12\n"
 
 msgid "OK"
 msgstr "OK"
@@ -113,6 +113,9 @@ msgstr "Przywróć zmiany"
 
 msgid "Copy"
 msgstr "Kopiuj"
+
+msgid "Cut"
+msgstr "Wytnij"
 
 msgid "Paste"
 msgstr "Wklej"
@@ -418,6 +421,9 @@ msgstr "Karmelowy"
 msgid "Light"
 msgstr "Jasny"
 
+msgid "Purple"
+msgstr "Fioletowy"
+
 msgid "Only affect selection"
 msgstr "Wpływ tylko na zaznaczenie"
 
@@ -530,10 +536,10 @@ msgid "Developed by Orama Interactive"
 msgstr "Tworzony przez: Orama Interactive"
 
 msgid "Copyright 2019-2020 Orama Interactive and contributors"
-msgstr ""
+msgstr "Copyright 2019-2020 Orama Interactive i wnoszący wkład"
 
 msgid "©2019-2020 by Orama Interactive and contributors"
-msgstr ""
+msgstr "©Copyright 2019-2020 Orama Interactive i wnoszący wkład"
 
 msgid "Website"
 msgstr "Strona internetowa"
@@ -1239,11 +1245,11 @@ msgstr "Plik został zapisany"
 msgid "File autosaved"
 msgstr "Automatycznie zapisano plik"
 
-msgid "File failed to open"
-msgstr "Nie udało się otworzyć pliku"
+msgid "File failed to open. Error code %s"
+msgstr "Nie udało się otworzyć pliku. Kod błędu %s"
 
-msgid "File failed to save"
-msgstr "Nie udało się zapisać pliku"
+msgid "File failed to save. Error code %s"
+msgstr "Nie udało się zapisać pliku. Kod błędu %s"
 
 msgid "File exported"
 msgstr "Plik został wyeksportowany"
@@ -1280,6 +1286,15 @@ msgstr "Niepoprawny plik palety kolorów!"
 
 msgid "Edit Palette"
 msgstr "Edytuj paletę kolorów"
+
+msgid "Create colors with alpha component"
+msgstr "Utwórz kolory z kanałem alpha"
+
+msgid "Get colors only from selection"
+msgstr "Pobierz kolory tylko z zaznaczenia"
+
+msgid "Get colors from"
+msgstr "Pobierz kolory z"
 
 msgid "Patrons:"
 msgstr "Patroni:"
@@ -1433,6 +1448,9 @@ msgstr "Wczytano ponownię kopię zapasową"
 msgid "Remove currently selected palette"
 msgstr "Usuń aktualnie wybraną paletę"
 
+msgid "Are you sure you want to remove this palette? (Cannot be undone)"
+msgstr "Czy na pewno chcesz usunąć tą paletę? (Nie można cofnąć)"
+
 msgid "You can't remove more palettes!"
 msgstr "Nie możesz usunąć więcej palet!"
 
@@ -1444,4 +1462,10 @@ msgstr "Wystąpił błąd podczas usuwania palety! Kod błędu: %s"
 
 msgid "and"
 msgstr "i"
+
+msgid "Move the selected frame to the left."
+msgstr "Przenieś zaznaczoną klatkę w lewo."
+
+msgid "Move the selected frame to the right."
+msgstr "Przenieś zaznaczoną klatkę w prawo."
 

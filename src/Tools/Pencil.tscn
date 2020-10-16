@@ -13,12 +13,12 @@ margin_right = 128.0
 margin_right = 128.0
 
 [node name="Type" parent="Brush" index="0"]
-margin_left = 7.0
-margin_right = 43.0
+margin_left = 9.0
+margin_right = 41.0
 
 [node name="Size" parent="Brush" index="1"]
-margin_left = 47.0
-margin_right = 121.0
+margin_left = 45.0
+margin_right = 119.0
 
 [node name="BrushSize" parent="." index="2"]
 margin_left = 18.0
